@@ -90,3 +90,20 @@ const postFile={
     postFileStatus:true
 }
 
+//date objects
+const d1=new Date()
+console.log(d1)
+//year and month
+const d2= new Date("2023","01")
+console.log(d2)
+//year, month and day -> YYYY,MM and DD
+const d3=new Date("2020","1","24")
+console.log(d3)
+
+//if we deifine date object in the following way then we get undefined date format
+const d4=new Date("2023-04-12")
+const d5=new Date("2023/02/12")
+const d6 = new Date("12/10/2023")
+console.log(d4)
+console.log(d5)
+console.log(d6)
