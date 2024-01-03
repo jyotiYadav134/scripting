@@ -104,6 +104,12 @@ console.log(d3)
 const d4=new Date("2023-04-12")
 const d5=new Date("2023/02/12")
 const d6 = new Date("12/10/2023")
+const d7= new Date("12-09-2020")
 console.log(d4)
 console.log(d5)
 console.log(d6)
+console.log(d7)
+
+//we can also pass hours,min and sec
+const d8=new Date("2023","12","24","12","25","58")
+console.log(d8)
